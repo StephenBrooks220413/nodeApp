@@ -1,0 +1,28 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "using node for http connection, sending mail, receiving files, connecting to MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenBrooks220413/nodeapps.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Stephen Brooks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StephenBrooks220413/nodeapps/issues"
+  },
+  "homepage": "https://github.com/StephenBrooks220413/nodeapps#readme",
+  "dependencies": {
+    "dapper": "0.0.6",
+    "node-cli": "^0.1.0"
+  },
+  "devDependencies": {}
+}
